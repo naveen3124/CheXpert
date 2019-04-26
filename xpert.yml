@@ -1,0 +1,16 @@
+name: Myenv # for Bayesian analysis
+channels:
+- conda-forge
+- defaults
+- ericmjl
+dependencies:
+- python=3.6
+- matplotlib=2.0.2
+- numpy=1.13.1
+- pandas=0.20.3
+- scipy=0.19.1
+- seaborn=0.8
+- jupyter=1.0.0
+- jupyterlab=0.25.2
+- ipykernel=4.6.1
+- pymc3=3.1
